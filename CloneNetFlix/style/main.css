@@ -1,6 +1,16 @@
+/*Essa tag root é para criar variaveis dentro do css*/
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
 /*Esse primeiro asterisco é para resetar a pagina retirando as margens e o box-sizing é para que os elementos dentro do box não aumente o tamanhdo do box, eles vão se expremer para caber dentro do tamanho do box sem aumentar ele*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
 }
